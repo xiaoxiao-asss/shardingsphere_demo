@@ -7,6 +7,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class ShardingsphereDemoApplication {
 
     public static void main(String[] args) {
+        System.out.println("-------");
         SpringApplication.run(ShardingsphereDemoApplication.class, args);
     }
 
